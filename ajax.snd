@@ -1,0 +1,16 @@
+pungsi ajax(){
+	ieu result = dokumen.cokotTinaId("result");
+
+	nyokot('ajax.php')
+	.tuluy(taur => taur.teks())
+	.tuluy(
+		teks => {
+			ttp garisa = teks.budal('\n');
+			jang (ttp garis of garisan){
+				result.eusi += garis+"\n";
+			}
+		}
+
+		)
+
+}
